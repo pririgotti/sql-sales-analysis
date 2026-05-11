@@ -10,7 +10,9 @@ The goal is to explore sales performance, identify trends, and generate business
 
 Tools Used
 SQL Server
-AdventureWorksDW2019
+SQL Server Management Studio (SSMS)
+Google Sheets
+GitHub
 
 Analysis Performed
 Total revenue
@@ -28,3 +30,4 @@ Customer base is well distributed, reducing dependency on individual clients
 Files
 queries.sql → SQL queries used for analysis
 insights.md → Detailed business insights
+images → Dashboard screenshots
