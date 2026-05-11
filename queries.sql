@@ -4,6 +4,8 @@ SELECT
 FROM FactInternetSales;
 
 
+Renevue by country
+
 SELECT 
     st.SalesTerritoryCountry AS Country,
     SUM(fs.SalesAmount) AS TotalRevenue
@@ -14,6 +16,7 @@ GROUP BY st.SalesTerritoryCountry
 ORDER BY TotalRevenue DESC;
 
 
+Sales Trend Over Time
 
 SELECT 
     d.CalendarYear,
@@ -29,6 +32,7 @@ ORDER BY
     d.CalendarYear,
     d.MonthNumberOfYear;
 
+Top 05 Products
 
 SELECT TOP 5
     p.EnglishProductName AS Product,
@@ -39,6 +43,7 @@ JOIN DimProduct p
 GROUP BY p.EnglishProductName
 ORDER BY TotalRevenue DESC;
 
+Top 10 Product Group
 
 SELECT TOP 10
 
@@ -59,7 +64,7 @@ GROUP BY
     END
 ORDER BY Revenue DESC;
 
-
+Top 10 Customers
 
 SELECT TOP 10
     c.FirstName + ' ' + c.LastName AS CustomerName,
