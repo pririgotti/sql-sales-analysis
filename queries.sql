@@ -1,4 +1,10 @@
 SELECT 
+    SUM(SalesAmount) AS TotalInternetSales
+
+FROM FactInternetSales;
+
+
+SELECT 
     st.SalesTerritoryCountry AS Country,
     SUM(fs.SalesAmount) AS TotalRevenue
 FROM FactInternetSales fs
