@@ -8,20 +8,20 @@ This project analyzes sales data from the AdventureWorksDW2019 database using SQ
 
 The goal is to explore sales performance, identify trends, and generate business insights.
 
-Tools Used
+Tools Used:
 SQL Server
 SQL Server Management Studio (SSMS)
 Google Sheets
 GitHub
 
-Analysis Performed
+Analysis Performed:
 Total revenue
 Revenue by country
 Top-selling products
 Monthly sales trends
 Top customers
 
-Key Insights
+Key Insights:
 Sales are highly concentrated in the United States and Australia (~63%)
 A small number of product lines generate most of the revenue
 Sales show strong growth over time, especially in 2013
@@ -30,4 +30,4 @@ Customer base is well distributed, reducing dependency on individual clients
 Files
 queries.sql → SQL queries used for analysis
 insights.md → Detailed business insights
-images → Dashboard screenshots
+dashboar → Dashboard pdf
